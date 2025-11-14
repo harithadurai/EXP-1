@@ -50,7 +50,10 @@ a.   KVL:
 
 
 b.  KCL:
+
  
+![WhatsApp Image 2025-11-12 at 21 55 32_8bbfaa70](https://github.com/user-attachments/assets/ac8c7294-3e5b-4124-bdd8-55709f52aac9)
+
 
 Calculation:
 
@@ -59,8 +62,6 @@ a.   KVL:
 $$V=V_{30\Omega}+V_{50\Omega}+V_{100\Omega}$$
 
 b.  KCL:
-
-![WhatsApp Image 2025-11-12 at 21 55 32_8bbfaa70](https://github.com/user-attachments/assets/ac8c7294-3e5b-4124-bdd8-55709f52aac9)
 
 
 
