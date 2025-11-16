@@ -37,11 +37,9 @@ b.  KCL:
 4.   Switch on the RPS.
 5.   Set the input voltage to a value between 0V to 30V.
 6.   Record the voltage values shown in the ammeter connected to each resistor.
-7.   Take readings for different values of input voltage and tabulate them. 
-CIRCUIT DIAGRAM:
-
-CIRCUIT DIAGRAM:
-
+7.   Take readings for different values of input voltage and tabulate them.
+ 
+     IRCUIT DIAGRAM:
 
 a.   KVL:
  
@@ -59,9 +57,33 @@ Calculation:
 
 a.   KVL:
  
-$$V=V_{30\Omega}+V_{50\Omega}+V_{100\Omega}$$
+$$ V=V_{30\Omega}+V_{50\Omega}+V_{100\Omega} $$
+$$ 100=IR_{1}+IR_{2}+IR_{3} $$ 
+$$\\ R_{eq} =R_{1}+R_{2}+R_{3} $$
+$$ \\ R_{eq} = 180\Omega $$
+$$ \\ I=\frac{V}{R_{eq}}=\frac{100}{180}=0.556V $$
+$$ \\ V_{1}=V_{30\Omega}=IR_{1}=0.556\times30=16.68V $$
+$$ \\ V_{2}=V_{50\Omega}=IR_{2}=0.556\times50=27.8V $$
+$$ \\ V_{3}=V_{100\Omega}=IR_{3}=0.556\times100=55.6V $$
+
 
 b.  KCL:
+
+$$ i_{30\Omega}=I_{50\Omega}+I_{100\Omega} $$
+$$ \\ i_{30\Omega}=\frac{100-V}{30} $$
+$$ \\ I_{50\Omega}=\frac{V}{50} $$
+$$ \\ I_{100\Omega}=\frac{V}{50} $$ 
+$$ \\ \frac{100-V}{30}=\frac{V}{50}+\frac{V}{100} $$
+$$ \\ \frac{100-V}{30}=\frac{2V}{100}+\frac{V}{100} $$
+$$ \\ \frac{100-V}{30}=\frac{2V+V}{100} $$
+$$ \\ \frac{100-V}{3}=\frac{3V}{10} $$
+$$ \\ 1000-10V=9V $$
+$$ \\ 19V=1000 $$
+$$ \\ V=\frac{1000}{19}=52.63V $$
+$$ \\ i_{30\Omega}=\frac{100-V}{30}==\frac{100-52.63}{30}=1.58A $$
+$$ \\ I_{50\Omega}=\frac{V}{50}=\frac{52.63}{50}=1.05A $$
+$$ \\ I_{100\Omega}=\frac{V}{50}=\frac{52.63}{100}=0.53A $$
+
 
 
 
@@ -76,6 +98,11 @@ a.   KVL:
 
 
 b.  KCL:
+
+|KVL|$$I_{30\Omega}$$|$$I_{50\Omega}$$|$$I_{100\Omega}$$|$$V_{A}$$|
+ |:-----:|:-----:|:------------:|:--------------:|:---------------:|
+ |Theoretical|1.58A|1.05|0.53A|52.63V|
+ |partical|1.58A|1.05A|0.53V|52.6V|
 
 
 
